@@ -1,0 +1,12 @@
+raco-pict.png
+
+compiled/
+.DS_Store
+/doc/
+
+*.swn
+*.swo
+*.swp
+*~
+.\#*
+\#*
