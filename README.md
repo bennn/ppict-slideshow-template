@@ -3,6 +3,8 @@ ppict-slideshow-template
 
 A simple `#lang slideshow` program that uses the `ppict` library.
 
+(The `ppict` library is a handy way to make normal picts.)
+
 
 # How to Install
 
