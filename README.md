@@ -15,8 +15,8 @@ raco pkg install from-template
 3. run this `raco` command:
 ```bash
 raco new ppict-slideshow-template <destination-dir>
+# if you omit `<destination-dir>`, the default is `./ppict-slideshow-template`
 ```
-If you omit `<destination-dir>`, the command will copy the template to a folder called `ppict-slideshow-template` in the current folder.
 4. install the newly-cloned package:
 ```bash
 # optional: change the package name in 'info.rkt'
