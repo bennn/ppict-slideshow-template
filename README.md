@@ -1,7 +1,7 @@
 ppict-slideshow-template
 ===
 
-A simple `#lang slideshow` program that uses `ppict` in ways that I like.
+A simple `#lang slideshow` program that uses the `ppict` library.
 
 
 # How to Install
@@ -17,6 +17,12 @@ raco pkg install from-template
 raco new ppict-slideshow-template <destination-dir>
 ```
 If you omit `<destination-dir>`, the command will copy the template to a folder called `ppict-slideshow-template` in the current folder.
+4. install the newly-cloned package:
+```bash
+# optional: change the package name in 'info.rkt'
+cd <destination-dir>
+raco pkg install
+```
 
 
 # How to Use
